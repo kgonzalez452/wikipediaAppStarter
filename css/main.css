@@ -1,0 +1,51 @@
+body{
+    margin: 2em;
+    text-align: center;
+    background-color: rgba(102, 205, 223, 0.835);
+}
+
+a{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    background-color: rgba(1, 191, 255, 0.5);
+    text-align: justify;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+
+
+input{
+    width: auto;
+    height: 30px;
+    font-size: 22px;
+    font-family: fantasy;
+    background-color: lightsteelblue;
+    border: none;
+}
+
+button{
+    width: 6pc;
+    height: 39px;
+    transform: translateY(2px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    border: 6px outset deepskyblue; 
+}
+
+button:hover{
+    box-shadow: 4px 4px 2px;
+    
+}
+
+button:active{
+    box-shadow: 2px 2px 1px;
+}
